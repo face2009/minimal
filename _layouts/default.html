@@ -15,6 +15,14 @@
   <body>
       <div class="wrapper">
       <header>
+{% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}"><strong>Chinese</strong></a></li>
+         </ul>
+        {% endif %}
+
+
+
                     <h1><a href="{{ "/" | absolute_url }}"><center>ZHOU YANG</center></a></h1>
 
         {% if site.logo %}
