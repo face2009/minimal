@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~. **bold  fdsfjkdsajfkfjdskl
 
 [Link to another page](./another-page.html).
 
-[link to this page](https://baidu.com)
+![link to this page](https://baidu.com)
 
 There should be whitespace between paragraphs.
 
