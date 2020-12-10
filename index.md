@@ -5,6 +5,7 @@ layout: default
 Text can be **bold**, _italic_, or ~~strikethrough~~. **bold  fdsfjkdsajfkfjdsklafj** fjdksafjdlk **jfdksafjdksl** fdjskafdsjl _fdjskafldkj_ <fjdskafjdksl> dsjfdksa
 
 [Link to another page](./another-page.html).
+
 [link to this page](https://baidu.com)
 
 There should be whitespace between paragraphs.
