@@ -12,11 +12,8 @@ else if (hour < 19){document.write("**Good Evening!**")}
 else if (hour < 22){document.write("**Good Night!**")} 
 else {document.write("**Good Night!**")} 
 </script>
-
-
-Hi, there.
-
-I'm Zhou Yang. Welcome to my offical website. 
+<br />
+Hi, there.<br />I'm Zhou Yang. Welcome to my offical website. 
 
 ***
 
