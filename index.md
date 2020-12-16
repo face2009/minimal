@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi, there.
+# <span>Hi, there.
  
 <script language="javaScript"> 
 now = new Date(),hour = now.getHours() 
@@ -15,7 +15,7 @@ else if (hour < 22){document.write("Good Night!")}
 else {document.write("Good Night!")} 
 </script>
 
-I'm Zhou Yang. Welcome to my offical website.
+I'm Zhou Yang. Welcome to my offical website. </span>
 
 ***
 
