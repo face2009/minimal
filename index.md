@@ -8,7 +8,7 @@ layout: default
 
 ***
 
-<script language="javaScript">
+<script>
 now = new Date(),hour = now.getHours()
 if(hour > 6 && hour < 12){document.write("Good Morning!")}
 else if (hour < 14){document.write("Good Noon!")}
