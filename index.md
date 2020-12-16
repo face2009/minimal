@@ -7,6 +7,7 @@ layout: default
 ## I'm Zhou Yang. Welcome to my offical website.
 
 ***
+```
 <script>
 var date=new Date();
 var h=date.getHours();
@@ -18,3 +19,4 @@ alert('Good Afternoon!');
 alert('Good Evening');
 }
 </script>
+```
