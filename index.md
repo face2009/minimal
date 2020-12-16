@@ -3,7 +3,8 @@ layout: default
 ---
 
 # Hi, there. 
-# <script language="javaScript"> 
+# 
+<script language="javaScript"> 
 now = new Date(),hour = now.getHours() 
 if(hour < 6){document.write("Good Midnight!")} 
 else if (hour < 12){document.write("Good Morning!")} 
