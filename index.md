@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Hi, I'm Zhou Yang.
-# This is my offical website.
+# Hi, there.
+
+## I'm Zhou Yang.
+## Welcome to my offical website.
 
 ***
