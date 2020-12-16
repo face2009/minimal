@@ -7,12 +7,23 @@ layout: default
 ## I'm Zhou Yang. Welcome to my offical website.
 
 ***
+<%
+Locale locale=request.getLocale();
+Calendar calendar=Calendar.getInstance(locale);
+int hour=calendar.get(Calendar.HOUR_OF_DAY);
+String greeting="";
+if(hour<=6){
+ greeting="现在是凌晨。";
+}else if(hour<=9){
+ greeting="早上好！";
+}else if(hour<=12){
+ greeting="上午好！";
+}else if(hour<=18){
+ greeting="下午好！";
+}else if(hour<=24){
+ greeting="晚上好！";
+}else{
+ greeting="获得时间出错，请调试!";
+}
+ %>
 
-<script>
-now = new Date(),hour = now.getHours()
-if(hour > 6 && hour < 12){document.write("Good Morning!")}
-else if (hour < 14){document.write("Good Noon!")}
-else if (hour < 17){document.write("Good Afternoon!")}
-else if (hour < 22){document.write(Good Evening!)}
-else if (hour < 6){document.write("Good Midnight!")}
-</script>
